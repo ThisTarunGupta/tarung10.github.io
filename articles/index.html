@@ -11,20 +11,9 @@ title: Articles
             <div class="col-lg-4 col-md-4 col-sm-12">
                 <h3 class="feature-title">{{ post.title }}</h3>
                 <p>{{ post.date | date_to _string }}</p>
-                <a class="custom-link2 btn" href="{{ post.url }}">Find Repo</a>
+                <a class="custom-link2 btn" href="{{ post.url }}" target="_blank">Find Repo</a>
             </div>
         {% endfor %}    
     </div>
     <br><br><br><br><br>
 </div>
-
-<!--<ul class="posts">
-    {% for post in site.posts %}
-        <li>
-            <span>{{ post.date | date_to _string }}
-            </span> >> <a href="{{ post.url }}" title="{{ post.title }}">
-                {{ post.title }}
-            </a>
-        </li><br>
-    {% endfor %}
-</ul>!-->
