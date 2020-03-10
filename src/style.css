@@ -18,7 +18,7 @@ body{
     justify-content: flex-end;
 }
 .header{
-    background-image: url("/src/images/background.jpg");
+    background: grey;
     background-size: cover;
     background-position: center;
     position: relative;
@@ -30,6 +30,9 @@ body{
     left: 0;
     top: 0;
     background: rgba(0, 0, 0, 0.75);
+}
+.layout {
+    margin: 50px;
 }
 .description {
     left: 50%;
