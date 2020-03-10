@@ -2,10 +2,10 @@ body{
     background: white;
 }
 .navbar{
-    background: white;
+    background: grey;
 }
 .navbar-brand, .nav-link{
-    color: black;
+    color: white;
     cursor: pointer;
 }
 .nav-link{
@@ -45,17 +45,17 @@ body{
     color: white;
 } 
 .description p {
-    color: olive;
+    color: rgb(154, 250, 250);
     font-size: 1.3rem;
     line-height: 1.5;
 }
-.custom-link {
+.description a, .custom-link {
     border:1px solid black;
     background: black;
     border-radius: 0;
     color: white;
 } 
-.custom-link:hover {
+.description a:hover, .custom-link:hover {
     border:1px solid white;
     background: white;
     color: black;
@@ -66,7 +66,7 @@ body{
     border-radius: 0;
     color: black;
 } 
-.custom-link:hover {
+.custom-link2:hover {
     border:1px solid black;
     background: black;
     color: white;
