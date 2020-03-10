@@ -50,15 +50,10 @@ body{
     line-height: 1.5;
 }
 .description a {
-    border:1px solid rgb(27, 27, 27);
-    background: rgb(27, 27, 27);
-    border-radius: 0;
     color: white;
 } 
 .description a:hover {
-    border:1px solid white;
-    background: white;
-    color: rgb(27, 27, 27);
+    color: cyan;
 }
 .custom-link {
     border:1px solid black;
