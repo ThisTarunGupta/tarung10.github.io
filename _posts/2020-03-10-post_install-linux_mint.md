@@ -4,11 +4,10 @@ title: " Post-Install Linux Mint or any Debian Based Distro"
 date: 2020-03-10
 ---
 
-
-
+<br><br><br>
 # POST-INSTALATION OF LINUX MINT OR ANY DEBIAN BASED DISTRO
 ### Mantainer: Tarun Gupta(@tarung10)
-
+<hr>
 This is a project that helps you to setup and install necessary packages after installing successfully Linux Mint or
 any Debian Based Distro on your system.  
 
