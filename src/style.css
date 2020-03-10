@@ -1,11 +1,11 @@
 body{
-    background: lightgrey;
+    background: white;
 }
 .navbar{
-    background: black;
+    background: white;
 }
 .navbar-brand, .nav-link{
-    color: white;
+    color: black;
     cursor: pointer;
 }
 .nav-link{
@@ -18,7 +18,7 @@ body{
     justify-content: flex-end;
 }
 .header{
-    background-image: url("/static/img/1.jpg");
+    background-image: url("/src/images/background.jpg");
     background-size: cover;
     background-position: center;
     position: relative;
@@ -39,23 +39,34 @@ body{
     text-align: center;
 }
 .description h1 {
-    color: red;
+    color: white;
 } 
 .description p {
-    color: white;
+    color: olive;
     font-size: 1.3rem;
     line-height: 1.5;
 }
-.description button {
-    border:1px solid green;
-    background: green;
+.custom-link {
+    border:1px solid black;
+    background: black;
     border-radius: 0;
     color: white;
 } 
-.description button:hover {
+.custom-link:hover {
     border:1px solid white;
     background: white;
     color: black;
+}
+.custom-link2 {
+    border:1px solid white;
+    background: white;
+    border-radius: 0;
+    color: black;
+} 
+.custom-link:hover {
+    border:1px solid black;
+    background: black;
+    color: white;
 }
 .features {
     margin: 4em auto;
@@ -96,6 +107,10 @@ body{
     color: #ccc;
     padding: 30px 0 30px;
 } 
+.follow {
+    height: 50px;
+    width: 50px;
+}
 .footer-copyright {
     color: #666;
 }

@@ -2,16 +2,25 @@
 layout: default
 title: Articles
 ---
-<br><br><br>
-<h1>{{ page.title }}</h1>
-<ul class="posts">
+<br><br><br><br><br>
+<h1>{{ page.title }}</h1><hr>
+<div class="row">
+    {% for post in site.posts %}
+        <div class="col-lg-4 col-md-4 col-sm-12">
+            <h3 class="feature-title">{{ post.title }}</h3>
+            <p>{{ post.date | date_to _string }}</p>
+            <a class="custom-link2 btn" href="{{ post.url }}">Find Repo</a>
+        </div>
+    {% endfor %}    
+</div>
+<!--<ul class="posts">
     {% for post in site.posts %}
         <li>
             <span>{{ post.date | date_to _string }}
             </span> >> <a href="{{ post.url }}" title="{{ post.title }}">
                 {{ post.title }}
             </a>
-        </li>
+        </li><br>
     {% endfor %}
-</ul>
-<br><br><br>
+</ul>!-->
+<br><br><br><br><br>
