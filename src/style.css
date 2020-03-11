@@ -2,10 +2,10 @@ body{
     background: white;
 }
 .navbar{
-    background: rgb(27, 27, 27);
+    background: white;
 }
 .navbar-brand, .nav-link{
-    color: white;
+    color: black;
     cursor: pointer;
 }
 .nav-link{
@@ -18,7 +18,7 @@ body{
     justify-content: flex-end;
 }
 .header{
-    background: grey;
+    background: cyan;
     background-size: cover;
     background-position: center;
     position: relative;
@@ -29,7 +29,7 @@ body{
     min-width: 100%;
     left: 0;
     top: 0;
-    background: rgba(0, 0, 0, 0.75);
+    background: rgba(88, 88, 88, 0.75);
 }
 .layout {
     margin: 50px;
@@ -42,18 +42,18 @@ body{
     text-align: center;
 }
 .description h1 {
-    color: white;
+    color: black;
 } 
 .description p {
-    color: rgb(154, 250, 250);
+    color: white;
     font-size: 1.3rem;
     line-height: 1.5;
 }
 .description a {
-    color: white;
+    color: black;
 } 
 .description a:hover {
-    color: cyan;
+    color: red;
 }
 .custom-link {
     border:1px solid black;
