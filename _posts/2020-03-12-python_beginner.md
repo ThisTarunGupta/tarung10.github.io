@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title: "Absolute Python Tutorial for Beginners"
 description: "Absolute Python Tutorial for Beginners"
 image: /src/images/python.png
