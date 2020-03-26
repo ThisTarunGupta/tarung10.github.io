@@ -177,6 +177,6 @@ right away in the interactive interpreter by starting it from command line.
 You can run Python from a GUI environment as well. All you need is a GUI application on your system that supports 
 Python.
 
-There are many IDE available like [VS Code](https://code.download.org/), Atom, Sublime, PyCharm, etc.
+There are many IDE available like [VS Code](https://code.visualstudio.com/), Atom, Sublime, PyCharm, etc.
 
-In whole tutorial, we'll be using [VS Code](https://code.download.org/).
+In whole tutorial, we'll be using [VS Code](https://code.visualstudio.com/).
