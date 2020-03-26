@@ -1,4 +1,4 @@
-body{
+ody{
     background: white;
 }
 .navbar{
@@ -12,7 +12,8 @@ body{
     margin-right: 1em;
 }
 .nav-link:hover{
-    color: red;
+    color: black;
+    text-decoration-line: underline;
 }
 .navbar-collapse{
     justify-content: flex-end;
@@ -32,7 +33,7 @@ body{
     background: rgba(88, 88, 88, 0.75);
 }
 .layout {
-    margin: 50px;
+    margin:50px;
 }
 .description {
     left: 50%;
@@ -53,27 +54,16 @@ body{
     color: black;
 } 
 .description a:hover {
-    color: red;
+    color: black;
 }
 .custom-link {
     border:1px solid black;
-    background: black;
+    background: white;
     border-radius: 0;
-    color: white;
+    color: black;
 } 
 .custom-link:hover {
-    border:1px solid white;
-    background: white;
-    color: black;
-}
-.custom-link2 {
-    border:1px solid white;
-    background: white;
-    border-radius: 0;
-    color: black;
-} 
-.custom-link2:hover {
-    border:1px solid black;
+    border: 1px solid black;
     background: black;
     color: white;
 }
@@ -81,7 +71,8 @@ body{
     margin: 4em auto;
     padding: 1em;
     position: relative;
-} 
+}
+ 
 .feature-title {
     color: #333;
     font-size: 1.3rem;
@@ -100,16 +91,9 @@ body{
 .features .form-control,.features input {
     border-radius: 0;
 } 
-.features .btn {
-    background-color: black;
-    border: 1px solid black;
-    color: #fff;
-    margin-top: 20px;
-}
-.features .btn:hover{
-    border: 1px solid white;
-    background: white;
-    color: black; 
+.course-img {
+   height: 400px;
+   width: 500px;
 }
 .page-footer {
     background-color: black;
