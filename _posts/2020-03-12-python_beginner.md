@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: "Absolute Python Tutorial for Beginners"
-description: "Absolute Python Tutorial for Beginners"
+description: "Absolute Python Tutorial for Beginners: Introduction and Setup... History... Features... Installation... Runnung..."
 image: /src/images/python.png
 tags: [python]
 ---
