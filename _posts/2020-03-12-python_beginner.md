@@ -1,18 +1,19 @@
 ---
 layout: posts
 title: "Absolute Python Tutorial for Beginners"
-description: "Absolute Python Tutorial for Beginners: Introduction and Setup... History... Features... Installation... Runnung..."
+description: "Absolute Python Tutorial for Beginners"
 image: /src/images/python.png
-tags: [python]
+tags: [Python]
 ---
 
 ##### Contents:
    1. [Inroduction and setup](#introduction-and-setup)
-
+   2. [Basic Concepts and Data Types](#basic-concepts-and-data-types)
 <hr><br>
 
-# Introduction and Setup:
-[<img src="/src/images/python_tut-1.png" class="img-fluid">](https://youtu.be/rX5rNdQIhwg)
+# Introduction and Setup
+[<img src="/src/images/python_tut-1.png" class="img-fluid">](https://www.youtube.com/watch?v=rX5rNdQIhwg/)
+
 Python is a high-level, interpreted, interactive and object-oriented scripting language. Python was designed to be 
 highly readable which uses English keywords frequently where as other languages use punctuation and it has fewer 
 syntactical constructons as other languages.
@@ -180,3 +181,268 @@ Python.
 There are many IDE available like [VS Code](https://code.visualstudio.com/), Atom, Sublime, PyCharm, etc.
 
 In whole tutorial, we'll be using [VS Code](https://code.visualstudio.com/).
+
+
+
+# Basic Concepts and Data Types
+[<img src="/src/images/python_tut_2.png" class="img-fluid">](https://www.youtube.com/watch?v=NlAtwCILAoQ/)
+The Python language has many similarities to Perl, C/C++ and Java. However, there are some definite differences
+between the languages. Here is a quick overview:
+
+Before going to proceed, you must know there are two ways to represent numbers:
+   * Integer -> The number which doesn't contain decimal points. e.g. 2, 100, -7, etc.
+  
+   * Floats -> The number which contains decimal point. e.g. 2.007, 1.4, -78.0, etc.
+
+### Simple Operations:
+
+There are simple numerical operations that are used in Python:
+
+`>>> 5 + 2   #Addition` <br>
+`7` <br>
+`>>> 5 - 2   #Subtraction` <br>
+`3` <br>
+`>>> 5 * 2   #Multiplication` <br>
+`10` <br>
+`>>> 5 ** 2  #Exponentation` <br>
+`25` <br>
+`>>> 9 ** (1/2)` <br>
+`3.0` <br>
+`>>> 5 / 2   #Division Gives Float Value` <br>
+`2.5` <br>
+`>>> 5 // 2  #Quotient` <br>
+`2` <br>
+`>>> 5 % 2   #Remainder` <br>
+`1`
+
+### Strings:
+If you want to use text in Python, you have to use a **string**.
+
+A **string** is created by entering text between **two single or double quotation marks**.
+
+When the Python console displays a string, it generally uses single quotes. The delimiter used for a string doesn't
+affect how it behaves in any way.
+
+`>>> "Hello World!"` <br>
+`'Hello World!'` <br>
+`>>> 'Python is fun!'` <br>
+`'Python is fun!'` 
+
+
+Some characters can't be directly included in a string. For instance, double quotes can't be directly included in a
+dounle quote string; this would cause it to end prematurely.
+
+Characters like these must be escaped by placing a **backslash (\)** before them. Other common characters that must 
+be escaped are *newlines* and *backslashes*. 
+Dounle quotes only need to be escaped in double quote strings, and the same is true for single quote string.
+
+`>>> "I\m Programmer!"` <br>
+`>>> 'I'm Programmer!'`
+
+### Simple Input and Output:
+##### Output:
+Usually, programs take **input** and process it to produce **output**.
+In Python, you can use the **print** function to produce output. This displays a textual representation of something
+to the screen.
+
+`>>> print(5 * 2.5)` <br>
+`12.5` <br>
+`>>> print("Hello\nWorld!")` <br>
+`Hello` <br>
+`World!`
+
+**Note:** When a string is printed, the quotes aroud it are not displayed.
+
+##### Input:
+To get input from the user in Python, you can use **input** function.
+The function prompts the user for input, and returns what they enter as a string (with the contents automatically 
+escaped).
+
+`>>> input("Enter something: ")` <br>
+`Enter something: Hi` <br>
+`'Hi'`
+
+### Lines and Indentation:
+One of the first cavets programmers encounter when learning Python is the fact that there are no braces to indicate
+blocks of code for class and function defination or flow control. Blocks of code are denoted by line indentation, 
+which is rigidly enforced.
+
+The number of spaces in the indentation is variable, but all statements within the block must be indented the same 
+amount. Both blocks in this example are fine:
+```python
+if True:
+    print("Answer")
+    print("True")
+else:
+ print("Answer")
+ print("False")
+```
+However, the second block in this example will generate an error:
+```python
+if True:
+    print("Answer")
+    print("True")
+else:
+ print("Answer")
+    print("False")
+```
+**Note:** Don't try to understand logic. Just make sure you understood how line indentation is used.
+
+### Comments in Python:
+A hash sign (#) that is not inside a string literal begins a comment. All characters after the # and up to the 
+physical line end are part of the comment and the Python interpreter ignores them.
+This is useful when you want to make note in Python script.
+```python
+#!/usr/bin/python3
+
+# First Comment
+print("Hello World!") # Second Comment
+```
+This will produce the following result:
+
+`Hello World!`
+
+### Variables:
+**Variables** plays a very important role in most programming languages, and Pyhon is no exception. A variable allows
+you to store a value by assigning it to a name, which can be used to refer to the value later in the program.
+
+To assign a variable, use **one equal sign**. Unlike, most lines of code we've looked at so far, it doesn't produce
+any output.
+
+<img src="/src/images/mem_loc_1.jpg" class="img-fluid" height="500px" width="500px">
+
+`>>> x = 7` <br>
+`>>> print(x + 6)` <br>
+`13` <br>
+`>>> print(x)` <br>
+`7`
+
+Variables can be reassigned as many times as you want, in order to change value. In Python, variables don't have 
+specific types, so you can assign a string to variable, and later assign an integer to the same variable.
+
+`>>> x = 4.76` <br>
+`>>> print(x)` <br>
+`4.76` <br>
+`>>> x = "Hello World!"` <br>
+`>>> print(x)` <br>
+`Hello World!`
+
+Certain restrictions apply in regard to the characters that may be used in Python variable names known as 
+**Identifier**. The only characters that are allowed are letters, numbers and underscores, Also, they aren't start 
+with numbers.
+Not following these rules results in errors.
+
+`>>> variable_example = 2` <br>
+`>>> 12r = 4.4` <br>
+  `File "<stdin>", line 1` <br>
+    `12r = 4.4` <br>
+      `^` <br>
+`SyntaxError: invalid syntax` <br>
+`>>> spaces are not allowed` <br>
+  `File "<stdin>", line 1` <br>
+    `spaces are not allowed` <br>
+             `^` <br>
+`SyntaxError: invalid syntax` 
+
+**Note:** Python is a case sensitive programming language. Thus, *Name* and *name* are two different variables.
+
+##### Reserved Words:
+The following list shows the reserved words in Python. These reserved words may not be used as constants or variable
+or any other identifier names. All he Python keywords contain lowercase letters only.
+
+<table class="table-responsive table table-striped table-bordered table-hover" border="1" cellpadding="10" cellspacing="10">
+    <tr>
+        <td>and</td>
+        <td>assert</td>
+        <td>break</td>
+        <td>class</td>
+        <td>continue</td>
+        <td>def</td>
+    </tr>
+    <tr>
+        <td>del</td>
+        <td>elif</td>
+        <td>else</td>
+        <td>expect</td>
+        <td>exec</td>
+        <td>finally</td>
+    </tr>
+    <tr>
+        <td>for</td>
+        <td>from</td>
+        <td>global</td>
+        <td>if</td>
+        <td>import</td>
+        <td>in</td>
+    </tr>
+    <tr>
+        <td>is</td>
+        <td>lambda</td>
+        <td>not</td>
+        <td>or</td>
+        <td>pass</td>
+        <td>print</td>
+    </tr>
+    <tr>
+        <td>raise</td>
+        <td>return</td>
+        <td>try</td>
+        <td>while</td>
+        <td>with</td>
+        <td>yield</td>
+    </tr>
+</table>
+
+
+Trying to reference a variable you haven't assigned to causes an **error**.
+To delete a variable, you can use **del** keyord. Deleted variables can be reassigned to later as normal.
+
+`>>> foo = input("Enter no.: ")` <br>
+`Enter no.: 3` <br>
+`>>> print(bar)` <br>
+`Traceback (most recent call last):` <br>
+  `File "<stdin>", line 1, in <module>` <br>
+`NameError: name 'bar' is not defined` <br>
+`>>> print(foo)` <br>
+`3` <br>
+`>>> del foo` <br>
+`>>> print(foo)` <br>
+`Traceback (most recent call last):` <br>
+  `File "<stdin>", line 1, in <module>` <br>
+`NameError: name 'foo' is not defined` 
+
+##### Multiple Assignment:
+Python allows you to assign a single value to several variables simultaneously. For example:
+
+`>>> a = b = c = 1` <br>
+`>>> print(a, b, c)` <br>
+`1 1 1`
+
+Here, an integer object is created with the value of 1, and all three variables are assigned to the same memory 
+location. You can also assign multiple objects to multiple variables. For example:
+
+`>>> a, b, c = 1, 2, "Max"` <br>
+`>>> print(a, b, c)` <br>
+`1 2 Max`
+
+Here, two integer objects with values 1 and 2 are assigned to variables a and b, and one string object with the 
+value "Max" is assigned to the variable c.
+
+### Standard Data Types:
+The data stored in menory can be of many types. For example, a person's age is stored as numeric value and his or 
+her address is stored as alphanumeric characters. Python has various standard data types that are used to define the
+operations possible on them and the storage method for them.
+
+Python has five standard data types:
+
+   * Numbers
+   
+   * String
+
+   * List
+
+   * Tuple
+
+   * Dictionary
+
+

@@ -1,4 +1,4 @@
-ody{
+body{
     background: white;
 }
 .navbar{
@@ -38,7 +38,7 @@ ody{
 .description {
     left: 50%;
     position: absolute;
-    top: 45%;
+    top: 60%;
     transform: translate(-50%, -55%);
     text-align: center;
 }
@@ -112,7 +112,7 @@ ody{
         left: 0;
         padding: 0 15px;
         position: absolute;
-        top: 10%;
+        top: 20%;
         transform: none;
         text-align: center;
     } 

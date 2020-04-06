@@ -1,3 +1,4 @@
 name: Tarun Gupta
 markdown: kramdown
+permalimk: /articles/:year/:month/:day/:title
 permalimk: /courses/:year/:month/:day/:title
