@@ -1,18 +1,19 @@
 ---
-layout: posts
+layout: post
 title: "Absolute Python Tutorial for Beginners"
 description: "Absolute Python Tutorial for Beginners"
 image: /src/images/python.png
 tags: [Python]
 ---
 
+<img src="{{ page.image }}" class="img-fluid" height= 500px width=500px>
 ##### Contents:
    1. [Inroduction and setup](#introduction-and-setup)
    2. [Basic Concepts and Data Types](#basic-concepts-and-data-types)
 <hr><br>
 
 # Introduction and Setup
-[<img src="/src/images/python_tut-1.png" class="img-fluid">](https://www.youtube.com/watch?v=rX5rNdQIhwg/)
+[<img src="/src/images/python_tut-1.png" class="img-fluid">](#history-of-python)
 
 Python is a high-level, interpreted, interactive and object-oriented scripting language. Python was designed to be 
 highly readable which uses English keywords frequently where as other languages use punctuation and it has fewer 
@@ -185,7 +186,8 @@ In whole tutorial, we'll be using [VS Code](https://code.visualstudio.com/).
 
 
 # Basic Concepts and Data Types
-[<img src="/src/images/python_tut_2.png" class="img-fluid">](https://www.youtube.com/watch?v=NlAtwCILAoQ/)
+[<img src="/src/images/python_tut_2.png" class="img-fluid">](#history-of-python)
+
 The Python language has many similarities to Perl, C/C++ and Java. However, there are some definite differences
 between the languages. Here is a quick overview:
 

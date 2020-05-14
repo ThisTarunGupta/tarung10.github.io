@@ -19,7 +19,7 @@ body{
     justify-content: flex-end;
 }
 .header{
-    background-image: url('/src/images/1.jpg');
+    background: cyan;
     background-size: cover;
     background-position: center;
     position: relative;
@@ -30,7 +30,7 @@ body{
     min-width: 100%;
     left: 0;
     top: 0;
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(88, 88, 88, 0.75);
 }
 .layout {
     margin:50px;

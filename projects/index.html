@@ -1,0 +1,23 @@
+---
+layout: default
+title: Projects
+description: "Projects Page"
+---
+
+<br><br>
+<div class="layout">
+    <h1>{{ page.title }}</h1><hr>
+    {% for post in site.posts %}
+        <div class="row">
+            {% if post.tags[0] == 'project' %}
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <img src="{{ post.image }}" class="img-fluid course-img">
+                    <h3 class="feature-title custom" >{{ post.title }}</h3>
+                    <a class="custom-link btn" href="{{ post.url }}">Read More</a>
+                </div>
+            {% endif %}
+        </div>
+    {% endfor %}
+</div>    
+<br><br><br><br><br>
+
